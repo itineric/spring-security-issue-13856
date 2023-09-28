@@ -16,6 +16,10 @@ With native compilation
 > mvn -Pnative package
 > target/native-hello-world-with-security
 ```
+And then
+```
+> curl localhost:8080
+```
 Output is "Hello World!"
 
 
